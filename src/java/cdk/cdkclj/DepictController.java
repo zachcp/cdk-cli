@@ -70,7 +70,7 @@ import org.openscience.cdk.stereo.TrigonalBipyramidal;
 import org.openscience.cdk.tools.manipulator.AtomContainerManipulator;
 import org.openscience.cdk.tools.manipulator.ReactionManipulator;
 import org.openscience.cdk.tools.manipulator.ReactionSetManipulator;
-import org.slf4j.LoggerFactory;
+// import org.slf4j.LoggerFactory;
 
 /**
  * Chemical structure depiction controller.
@@ -260,7 +260,7 @@ public class DepictController {
      * @throws IOException  problem reading/writing request
      */
 
-    public HttpEntity<?> depict(
+    public Depiction depict(
         String smi,
         String fmt,
         String style,
@@ -515,28 +515,30 @@ public class DepictController {
                 ? myGenerator.depict(mols, mols.size(), 1)
                 : myGenerator.depict(mol);
 
-        switch (fmtlc) {
-            case Depiction.SVG_FMT:
-                return makeResponse(
-                    depiction
-                        .toSvgStr(getString(Param.SVGUNITS, extra))
-                        .getBytes(),
-                    "image/svg+xml"
-                );
-            case Depiction.PDF_FMT:
-                return makeResponse(
-                    depiction.toPdfStr().getBytes(),
-                    "application/pdf"
-                );
-            case Depiction.PNG_FMT:
-            case Depiction.JPG_FMT:
-            case Depiction.GIF_FMT:
-                ByteArrayOutputStream bao = new ByteArrayOutputStream();
-                ImageIO.write(depiction.toImg(), fmtlc, bao);
-                return makeResponse(bao.toByteArray(), "image/" + fmtlc);
-        }
+        return depiction;
 
-        throw new IllegalArgumentException("Unsupported format.");
+        // switch (fmtlc) {
+        //     case Depiction.SVG_FMT:
+        //         return makeResponse(
+        //             depiction
+        //                 .toSvgStr(getString(Param.SVGUNITS, extra))
+        //                 .getBytes(),
+        //             "image/svg+xml"
+        //         );
+        //     case Depiction.PDF_FMT:
+        //         return makeResponse(
+        //             depiction.toPdfStr().getBytes(),
+        //             "application/pdf"
+        //         );
+        //     case Depiction.PNG_FMT:
+        //     case Depiction.JPG_FMT:
+        //     case Depiction.GIF_FMT:
+        //         ByteArrayOutputStream bao = new ByteArrayOutputStream();
+        //         ImageIO.write(depiction.toImg(), fmtlc, bao);
+        //         return makeResponse(bao.toByteArray(), "image/" + fmtlc);
+        // }
+
+        // throw new IllegalArgumentException("Unsupported format.");
     }
 
     private MolOp.DativeBond parseDativeParam(String s) {
@@ -618,7 +620,7 @@ public class DepictController {
     }
 
     private DepictionGenerator withBgFgColors(
-        @RequestParam Map<String, String> extra,
+        Map<String, String> extra,
         DepictionGenerator myGenerator
     ) {
         final String bgcolor = getString(Param.BGCOLOR, extra);
@@ -1314,6 +1316,8 @@ public class DepictController {
             }
         }
     }
+
+
 
 //    private HttpEntity<byte[]> makeResponse(byte[] bytes, String contentType) {
 //        HttpHeaders header = new HttpHeaders();
