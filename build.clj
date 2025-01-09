@@ -47,6 +47,7 @@
   (test opts)
   (b/delete {:path "target"})
   (let [opts (uber-opts opts)]
+    (compile_java nil)
     (println "\nCopying source...")
     (b/copy-dir {:src-dirs ["resources" "src"] :target-dir class-dir})
     (println (str "\nCompiling " main "..."))
