@@ -133,7 +133,6 @@
 
 
 
-
 (def depict-command-opts
   {:command "depict"
    :description "Depicts chemical structures"
