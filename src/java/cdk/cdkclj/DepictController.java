@@ -4,6 +4,8 @@
 
 package cdk.cdkcli;
 
+import com.google.common.collect.ArrayListMultimap;
+import com.google.common.collect.Multimap;
 import com.simolecule.centres.BaseMol;
 import com.simolecule.centres.CdkLabeller;
 import com.simolecule.centres.Descriptor;
@@ -69,24 +71,10 @@ import org.openscience.cdk.tools.manipulator.AtomContainerManipulator;
 import org.openscience.cdk.tools.manipulator.ReactionManipulator;
 import org.openscience.cdk.tools.manipulator.ReactionSetManipulator;
 import org.slf4j.LoggerFactory;
-import org.springframework.http.HttpEntity;
-import org.springframework.http.HttpHeaders;
-import org.springframework.http.HttpStatus;
-import org.springframework.http.MediaType;
-import org.springframework.http.ResponseEntity;
-import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.CrossOrigin;
-import org.springframework.web.bind.annotation.ExceptionHandler;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.context.request.WebRequest;
 
 /**
  * Chemical structure depiction controller.
  */
-@CrossOrigin
-@Controller
 public class DepictController {
 
     private final Object lock = new Object();
@@ -271,12 +259,12 @@ public class DepictController {
      * @throws CDKException something not okay with input
      * @throws IOException  problem reading/writing request
      */
-    @RequestMapping("depict/{style}/{fmt}")
+
     public HttpEntity<?> depict(
-        @RequestParam("smi") String smi,
-        @PathVariable("fmt") String fmt,
-        @PathVariable("style") String style,
-        @RequestParam Map<String, String> extra
+        String smi,
+        String fmt,
+        String style,
+        Map<String, String> extra
     ) throws CDKException, IOException {
         String abbr = getString(Param.ABBREVIATE, extra);
         String annotate = getString(Param.ANNOTATE, extra);
@@ -1327,19 +1315,19 @@ public class DepictController {
         }
     }
 
-    private HttpEntity<byte[]> makeResponse(byte[] bytes, String contentType) {
-        HttpHeaders header = new HttpHeaders();
-        String type = contentType.substring(0, contentType.indexOf('/'));
-        String subtype = contentType.substring(
-            contentType.indexOf('/') + 1,
-            contentType.length()
-        );
-        header.setContentType(new MediaType(type, subtype));
-        header.add("Access-Control-Allow-Origin", "*");
-        // header.set(HttpHeaders.CACHE_CONTROL, "public, max-age=31536000");
-        header.setContentLength(bytes.length);
-        return new HttpEntity<>(bytes, header);
-    }
+//    private HttpEntity<byte[]> makeResponse(byte[] bytes, String contentType) {
+//        HttpHeaders header = new HttpHeaders();
+//        String type = contentType.substring(0, contentType.indexOf('/'));
+//        String subtype = contentType.substring(
+//            contentType.indexOf('/') + 1,
+//            contentType.length()
+//        );
+//        header.setContentType(new MediaType(type, subtype));
+//        header.add("Access-Control-Allow-Origin", "*");
+//        // header.set(HttpHeaders.CACHE_CONTROL, "public, max-age=31536000");
+//        header.setContentLength(bytes.length);
+//        return new HttpEntity<>(bytes, header);
+//    }
 
     /**
      * Set the depiction style.
@@ -1493,53 +1481,53 @@ public class DepictController {
         return highlight;
     }
 
-    @ExceptionHandler({ Exception.class, InvalidSmilesException.class })
-    public static ResponseEntity<Object> handleException(
-        Exception ex,
-        WebRequest request
-    ) {
-        if (ex instanceof InvalidSmilesException) {
-            InvalidSmilesException ise = (InvalidSmilesException) ex;
-            String mesg = ise.getMessage();
-            String disp = "";
-            if (mesg.endsWith("^")) {
-                int i = mesg.indexOf(":\n");
-                if (i >= 0) {
-                    disp = mesg.substring(i + 2);
-                    mesg = mesg.substring(0, i);
-                }
-            }
-            return new ResponseEntity<>(
-                "<!DOCTYPE html><html>" +
-                "<title>400 - Invalid SMILES</title>" +
-                "<body><div>" +
-                "<h1>Invalid SMILES</h1>" +
-                mesg +
-                "<pre>" +
-                disp +
-                "</pre>" +
-                "</div></body>" +
-                "</html>",
-                new HttpHeaders(),
-                HttpStatus.BAD_REQUEST
-            );
-        } else {
-            LoggerFactory.getLogger(DepictController.class).error(
-                "Unexpected Error: ",
-                ex
-            );
-            return new ResponseEntity<>(
-                "<!DOCTYPE html><html><title>500 - Internal Server Error</title><body><div>" +
-                "<h1>" +
-                ex.getClass().getSimpleName() +
-                "</h1>" +
-                ex.getMessage() +
-                "</div></body></html>",
-                new HttpHeaders(),
-                HttpStatus.INTERNAL_SERVER_ERROR
-            );
-        }
-    }
+    // @ExceptionHandler({ Exception.class, InvalidSmilesException.class })
+    // public static ResponseEntity<Object> handleException(
+    //     Exception ex,
+    //     WebRequest request
+    // ) {
+    //     if (ex instanceof InvalidSmilesException) {
+    //         InvalidSmilesException ise = (InvalidSmilesException) ex;
+    //         String mesg = ise.getMessage();
+    //         String disp = "";
+    //         if (mesg.endsWith("^")) {
+    //             int i = mesg.indexOf(":\n");
+    //             if (i >= 0) {
+    //                 disp = mesg.substring(i + 2);
+    //                 mesg = mesg.substring(0, i);
+    //             }
+    //         }
+    //         return new ResponseEntity<>(
+    //             "<!DOCTYPE html><html>" +
+    //             "<title>400 - Invalid SMILES</title>" +
+    //             "<body><div>" +
+    //             "<h1>Invalid SMILES</h1>" +
+    //             mesg +
+    //             "<pre>" +
+    //             disp +
+    //             "</pre>" +
+    //             "</div></body>" +
+    //             "</html>",
+    //             new HttpHeaders(),
+    //             HttpStatus.BAD_REQUEST
+    //         );
+    //     } else {
+    //         LoggerFactory.getLogger(DepictController.class).error(
+    //             "Unexpected Error: ",
+    //             ex
+    //         );
+    //         return new ResponseEntity<>(
+    //             "<!DOCTYPE html><html><title>500 - Internal Server Error</title><body><div>" +
+    //             "<h1>" +
+    //             ex.getClass().getSimpleName() +
+    //             "</h1>" +
+    //             ex.getMessage() +
+    //             "</div></body></html>",
+    //             new HttpHeaders(),
+    //             HttpStatus.INTERNAL_SERVER_ERROR
+    //         );
+    //     }
+    // }
 
     public static void main(String[] args) throws IOException, CDKException {
         new DepictController()
