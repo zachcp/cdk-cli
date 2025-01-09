@@ -2,9 +2,7 @@
   (:gen-class)
   (:require [cli-matic.core :refer [run-cmd]]
             [cdk.convertsmiles :as convertsmiles]
-            [cdk.depict :as depict])
-  (:import [cdk.cdkcli DepictController])
-  )
+            [cdk.depict :as depict]))
 
 (set! *warn-on-reflection* true)
 
