@@ -60,7 +60,7 @@ jobs:
           path: target/cdk
 
       - name: Create Release
-        uses: softprops/action-gh-release@v1
+        uses: softprops/action-gh-release@v2
         with:
           files: target/cdk/*.jar
           generate_release_notes: true
