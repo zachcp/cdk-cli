@@ -5,17 +5,16 @@
 
 
 (def convertsmiles-opts      
-    {:option "smiles"
-              :short "s"
-              :type :string
-              :default :present
-              :description "The SMILES string to convert"}
-             {:option "output"
-              :short "o"
-              :type :string
-              :default :present
-              :description "The output SVG file"}
-)
+  [{:option "smiles"
+    :short "s"
+    :type :string
+    :default :present
+    :description "The SMILES string to convert"}
+   {:option "output"
+    :short "o"
+    :type :string
+    :default :present
+    :description "The output SVG file"}])
 
 (defn convert-smiles-to-svg
   "Converts a SMILES string to an SVG file"
