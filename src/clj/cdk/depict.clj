@@ -3,7 +3,6 @@
            [org.openscience.cdk.silent SilentChemObjectBuilder]
            [org.openscience.cdk.smiles SmilesParser]
            [com.simolecule.centres BaseMol CdkLabeller Descriptor]
-           [org.openscience.cdk.app DepictController]
            [org.openscience.cdk CDKConstants]
            [org.openscience.cdk.depict Abbreviations Depiction DepictionGenerator]
            [org.openscience.cdk.exception CDKException InvalidSmilesException]
@@ -20,7 +19,8 @@
            [org.openscience.cdk.smarts SmartsPattern]
            [org.openscience.cdk.smiles SmilesParser]
            [org.openscience.cdk.stereo ExtendedTetrahedral Octahedral SquarePlanar Stereocenters TetrahedralChirality TrigonalBipyramidal]
-           [org.openscience.cdk.tools.manipulator AtomContainerManipulator ReactionManipulator ReactionSetManipulator]
+           [org.openscience.cdk.tools.manipulator AtomContainerManipulator ReactionManipulator ReactionSetManipulator] 
+           [cdk.cdkcli DepictController]
            ))
 
 
