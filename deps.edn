@@ -1,0 +1,18 @@
+{:paths ["src" "resources"]
+ :deps {org.clojure/clojure {:mvn/version "1.12.0"} 
+        cli-matic/cli-matic {:mvn/version "0.5.4"}
+        org.openscience.cdk/cdk-depict {:mvn/version "2.9"}
+        org.openscience.cdk/cdk-core {:mvn/version "2.9"}
+        org.openscience.cdk/cdk-io {:mvn/version "2.9"}
+        org.openscience.cdk/cdk-silent {:mvn/version "2.9"}}
+ :aliases
+ {:run-m {:main-opts ["-m" "cdk.cdkcli"]}
+  :run-x {:ns-default cdk.cdkcli
+          :exec-fn greet
+          :exec-args {:name "Clojure"}}
+  :build {:deps {io.github.clojure/tools.build {:mvn/version "0.10.6"}}
+          :ns-default build}
+  :test {:extra-paths ["test"]
+         :extra-deps {org.clojure/test.check {:mvn/version "1.1.1"}
+                      io.github.cognitect-labs/test-runner
+                      {:git/tag "v0.5.1" :git/sha "dfb30dd"}}}}}
