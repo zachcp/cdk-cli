@@ -20,6 +20,7 @@ clojure -T:build ci
 
 
 clojure -M:run-m depict <args>
+clojure -M:run-m depict --smiles "CCCCC"  --fmt svg --style bow --output out.svg
 ```
 
 ## Update
