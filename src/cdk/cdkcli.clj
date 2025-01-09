@@ -15,7 +15,13 @@
    :subcommands
    [{:command "depict"
      :description "Depicts chemical structures"
-     :opts [{:option "smalim"
+     :opts [
+         {:option "smiles"
+         :short "s"
+         :type :string
+        :default :present}
+         {
+         :option "smalim"
              :type :int
              :default 100
              :description "SMARTS hit limit"}
@@ -114,4 +120,3 @@
 
 (defn -main [& args]
   (run-cmd args CONFIGURATION))
-

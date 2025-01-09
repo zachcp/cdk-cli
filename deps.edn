@@ -1,10 +1,11 @@
 {:paths ["src" "resources"]
- :deps {org.clojure/clojure {:mvn/version "1.12.0"} 
+ :deps {org.clojure/clojure {:mvn/version "1.12.0"}
         cli-matic/cli-matic {:mvn/version "0.5.4"}
         org.openscience.cdk/cdk-depict {:mvn/version "2.9"}
         org.openscience.cdk/cdk-core {:mvn/version "2.9"}
         org.openscience.cdk/cdk-io {:mvn/version "2.9"}
-        org.openscience.cdk/cdk-silent {:mvn/version "2.9"}}
+        org.openscience.cdk/cdk-silent {:mvn/version "2.9"}
+        org.openscience.cdk/cdkdepict-lib {:mvn/version "1.11"}}
  :aliases
  {:run-m {:main-opts ["-m" "cdk.cdkcli"]}
   :run-x {:ns-default cdk.cdkcli
