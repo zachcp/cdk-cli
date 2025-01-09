@@ -32,11 +32,11 @@
                    :default :present
                    :description "Smiles Input String"}
                   {:option "fmt"
-                   :type :string
+                   :type #{"jpg", "png", "svg", "pdf"}
                    :default :present
                    :description "Image Format"}
                   {:option "style"
-                   :type :string
+                   :type #{"bow" "cow" "cob"} 
                    :default :present
                    :description "Image Style"}
                   {:option "output"
