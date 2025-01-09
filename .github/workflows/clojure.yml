@@ -3,6 +3,8 @@ name: Clojure CI/CD
 on:
   push:
     branches: [main]
+    tags:
+      - "v*" # This will trigger on any tag starting with 'v'
   pull_request:
     branches: [main]
 
@@ -44,3 +46,23 @@ jobs:
         with:
           name: uberjar
           path: target/cdk/*.jar
+
+  release:
+    needs: build
+    if: startsWith(github.ref, 'refs/tags/v')
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Download artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: uberjar
+          path: target/cdk
+
+      - name: Create Release
+        uses: softprops/action-gh-release@v1
+        with:
+          files: target/cdk/*.jar
+          generate_release_notes: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
