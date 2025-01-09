@@ -4,7 +4,11 @@
             [clojure.tools.build.api :as b]))
 
 (def lib 'cdk/cdkcli)
-(def version "0.1.0-SNAPSHOT")
+
+
+;; note - this will end up in the tagged releade
+(def version "0.0.4")
+
 (def main 'cdk.cdkcli)
 (def class-dir "target/classes")
 
