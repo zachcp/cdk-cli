@@ -5,16 +5,25 @@
 
 (def lib 'cdk/cdkcli)
 
-
 ;; note - this will end up in the tagged releade
 (def version "0.0.4")
-
 (def main 'cdk.cdkcli)
 (def class-dir "target/classes")
 
+(def basis (delay (b/create-basis {:project "deps.edn"})))
+
+(defn compile_java [_]
+  (b/javac {:src-dirs ["src/java"]
+            :class-dir class-dir
+            :basis @basis
+            :javac-opts ["--release" "11"]}))
+
+
 (defn test "Run all the tests." [opts]
   (println "\nRunning tests...")
-  (let [basis    (b/create-basis {:aliases [:test]})
+  (let [
+        _ (compile_java nil)
+        basis    (b/create-basis {:aliases [:test]})
         combined (t/combine-aliases basis [:test])
         cmds     (b/java-command
                   {:basis basis
