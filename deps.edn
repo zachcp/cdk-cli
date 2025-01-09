@@ -5,7 +5,10 @@
         org.openscience.cdk/cdk-core {:mvn/version "2.9"}
         org.openscience.cdk/cdk-io {:mvn/version "2.9"}
         org.openscience.cdk/cdk-silent {:mvn/version "2.9"}
-        org.openscience.cdk/cdkdepict-lib {:mvn/version "1.11"}}
+        org.openscience.cdk/cdk-smarts {:mvn/version "2.9"}
+        com.simolecule.centres/centres-cdk {:mvn/version "1.2.1"}
+        }
+
  :aliases
  {:run-m {:main-opts ["-m" "cdk.cdkcli"]}
   :run-x {:ns-default cdk.cdkcli
