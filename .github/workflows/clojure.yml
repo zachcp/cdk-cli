@@ -1,0 +1,46 @@
+name: Clojure CI/CD
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Setup Java
+        uses: actions/setup-java@v3
+        with:
+          distribution: "temurin"
+          java-version: "17"
+
+      - name: Install Clojure Tools
+        uses: DeLaGuardo/setup-clojure@13
+        with:
+          cli: "latest"
+
+      - name: Cache deps
+        uses: actions/cache@v3
+        with:
+          path: |
+            ~/.m2
+            ~/.gitlibs
+          key: ${{ runner.os }}-deps-${{ hashFiles('**/deps.edn') }}
+          restore-keys: ${{ runner.os }}-deps-
+
+      - name: Run Tests
+        run: clojure -X:test
+
+      - name: Build Uberjar
+        run: clojure -T:build uber
+
+      - name: Upload Uberjar
+        uses: actions/upload-artifact@v3
+        with:
+          name: uberjar
+          path: target/*.jar # Adjust path based on your project structure
