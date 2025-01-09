@@ -20,7 +20,7 @@ jobs:
           java-version: "17"
 
       - name: Install Clojure Tools
-        uses: DeLaGuardo/setup-clojure@13
+        uses: DeLaGuardo/setup-clojure@13.1
         with:
           cli: "latest"
 
