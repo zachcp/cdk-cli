@@ -1,4 +1,4 @@
-{:paths ["src/clj" "src/java" "resources"]
+{:paths ["src/clj" "src/java" "resources" "target/classes"]
  :deps {org.clojure/clojure {:mvn/version "1.12.0"}
         cli-matic/cli-matic {:mvn/version "0.5.4"}
         org.openscience.cdk/cdk-depict {:mvn/version "2.9"}
@@ -10,6 +10,9 @@
         com.google.guava/guava {:mvn/version "33.4.0-jre"}
 
         }
+ :deps/prep-lib {:alias :build
+                 :fn compile_java
+                 :ensure "target/classes"}
 
  :aliases
  {:run-m {:main-opts ["-m" "cdk.cdkcli"]}

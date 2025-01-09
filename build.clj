@@ -40,7 +40,7 @@
          :uber-file (format "target/%s-%s.jar" lib version)
          :basis (b/create-basis {})
          :class-dir class-dir
-         :src-dirs ["src"]
+         :src-dirs ["src/java"]
          :ns-compile [main]))
 
 (defn ci "Run the CI pipeline of tests (and build the uberjar)." [opts]
