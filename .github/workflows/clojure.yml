@@ -34,10 +34,10 @@ jobs:
           restore-keys: ${{ runner.os }}-deps-
 
       - name: Run Tests
-        run: clojure -X:test
+        run: clojure -T:build test
 
       - name: Build Uberjar
-        run: clojure -T:build uber
+        run: clojure -T:build ci
 
       - name: Upload Uberjar
         uses: actions/upload-artifact@v4
