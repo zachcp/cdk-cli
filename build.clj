@@ -3,7 +3,7 @@
   (:require [clojure.tools.deps :as t]
             [clojure.tools.build.api :as b]))
 
-(def lib 'net.clojars.cdk/cdkcli)
+(def lib 'cdk/cdkcli)
 (def version "0.1.0-SNAPSHOT")
 (def main 'cdk.cdkcli)
 (def class-dir "target/classes")
