@@ -4,16 +4,16 @@
             [cdk.convertsmiles :as convertsmiles]
             [cdk.depict :as depict]))
 
-(set! *warn-on-reflection* true)
+;; (set! *warn-on-reflection* true)
 
 
 (def CONFIGURATION
   {:command "cdk-cli"
    :description "Chemistry CLI utilities using CDK"
-   :version "1.0"
+   :version "0.0.5"
    :subcommands
-   [ depict/depict-command-opts 
-    
+   [ depict/depict-command-opts
+
     {:command "convertsmiles"
      :description "Converts SMILES to SVG using CDK"
      :opts [{:option "smiles"

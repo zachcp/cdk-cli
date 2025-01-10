@@ -1,0 +1,2870 @@
+{
+  "reflection": [
+    {
+      "type": "[B"
+    },
+    {
+      "type": "[C"
+    },
+    {
+      "type": "[D"
+    },
+    {
+      "type": "[F"
+    },
+    {
+      "type": "[I"
+    },
+    {
+      "type": "[J"
+    },
+    {
+      "type": "[Ljava.lang.Object;"
+    },
+    {
+      "type": "[S"
+    },
+    {
+      "type": "[Z"
+    },
+    {
+      "type": "cdk.cdkcli.DepictController"
+    },
+    {
+      "type": "cdk.cdkcli__init"
+    },
+    {
+      "type": "cdk.convertsmiles__init"
+    },
+    {
+      "type": "cdk.depict__init"
+    },
+    {
+      "type": "cheshire.core__init"
+    },
+    {
+      "type": "cli_matic.core__init"
+    },
+    {
+      "type": "cli_matic.help_gen__init"
+    },
+    {
+      "type": "cli_matic.optionals__init"
+    },
+    {
+      "type": "cli_matic.platform__init"
+    },
+    {
+      "type": "cli_matic.platform_macros__init"
+    },
+    {
+      "type": "cli_matic.presets__init"
+    },
+    {
+      "type": "cli_matic.specs__init"
+    },
+    {
+      "type": "cli_matic.utils__init"
+    },
+    {
+      "type": "cli_matic.utils_candidates__init"
+    },
+    {
+      "type": "cli_matic.utils_v2__init"
+    },
+    {
+      "type": "clj_yaml.core__init"
+    },
+    {
+      "type": "clojure.asm.ClassVisitor"
+    },
+    {
+      "type": "clojure.asm.ClassWriter"
+    },
+    {
+      "type": "clojure.asm.Opcodes"
+    },
+    {
+      "type": "clojure.asm.Type"
+    },
+    {
+      "type": "clojure.asm.commons.GeneratorAdapter"
+    },
+    {
+      "type": "clojure.asm.commons.Method"
+    },
+    {
+      "type": "clojure.core.ArrayChunk"
+    },
+    {
+      "type": "clojure.core.ArrayManager"
+    },
+    {
+      "type": "clojure.core.Eduction"
+    },
+    {
+      "type": "clojure.core.IVecImpl"
+    },
+    {
+      "type": "clojure.core.Inst"
+    },
+    {
+      "type": "clojure.core.Vec"
+    },
+    {
+      "type": "clojure.core.VecNode"
+    },
+    {
+      "type": "clojure.core.VecSeq"
+    },
+    {
+      "type": "clojure.core.async.impl.channels__init"
+    },
+    {
+      "type": "clojure.core.protocols.CollReduce"
+    },
+    {
+      "type": "clojure.core.protocols.Datafiable"
+    },
+    {
+      "type": "clojure.core.protocols.IKVReduce"
+    },
+    {
+      "type": "clojure.core.protocols.InternalReduce"
+    },
+    {
+      "type": "clojure.core.protocols.Navigable"
+    },
+    {
+      "type": "clojure.core.protocols__init"
+    },
+    {
+      "type": "clojure.core.server__init"
+    },
+    {
+      "type": "clojure.core__init"
+    },
+    {
+      "type": "clojure.core_deftype__init"
+    },
+    {
+      "type": "clojure.core_print__init"
+    },
+    {
+      "type": "clojure.core_proxy__init"
+    },
+    {
+      "type": "clojure.edn__init"
+    },
+    {
+      "type": "clojure.genclass__init"
+    },
+    {
+      "type": "clojure.gvec__init"
+    },
+    {
+      "type": "clojure.instant__init"
+    },
+    {
+      "type": "clojure.java.io.Coercions"
+    },
+    {
+      "type": "clojure.java.io.IOFactory"
+    },
+    {
+      "type": "clojure.java.io__init"
+    },
+    {
+      "type": "clojure.lang.APersistentMap$KeySeq"
+    },
+    {
+      "type": "clojure.lang.APersistentMap$ValSeq"
+    },
+    {
+      "type": "clojure.lang.ASeq"
+    },
+    {
+      "type": "clojure.lang.BigInt"
+    },
+    {
+      "type": "clojure.lang.ChunkBuffer"
+    },
+    {
+      "type": "clojure.lang.Compiler"
+    },
+    {
+      "type": "clojure.lang.Compiler$CompilerException"
+    },
+    {
+      "type": "clojure.lang.DynamicClassLoader"
+    },
+    {
+      "type": "clojure.lang.ExceptionInfo"
+    },
+    {
+      "type": "clojure.lang.Fn"
+    },
+    {
+      "type": "clojure.lang.IChunk"
+    },
+    {
+      "type": "clojure.lang.IChunkedSeq"
+    },
+    {
+      "type": "clojure.lang.IDeref"
+    },
+    {
+      "type": "clojure.lang.IExceptionInfo"
+    },
+    {
+      "type": "clojure.lang.IFn"
+    },
+    {
+      "type": "clojure.lang.IHashEq"
+    },
+    {
+      "type": "clojure.lang.IKVReduce"
+    },
+    {
+      "type": "clojure.lang.IPending"
+    },
+    {
+      "type": "clojure.lang.IPersistentCollection"
+    },
+    {
+      "type": "clojure.lang.IPersistentList"
+    },
+    {
+      "type": "clojure.lang.IPersistentMap"
+    },
+    {
+      "type": "clojure.lang.IPersistentSet"
+    },
+    {
+      "type": "clojure.lang.IPersistentVector"
+    },
+    {
+      "type": "clojure.lang.IProxy"
+    },
+    {
+      "type": "clojure.lang.IRecord"
+    },
+    {
+      "type": "clojure.lang.IReduceInit"
+    },
+    {
+      "type": "clojure.lang.ISeq"
+    },
+    {
+      "type": "clojure.lang.Keyword"
+    },
+    {
+      "type": "clojure.lang.LazilyPersistentVector"
+    },
+    {
+      "type": "clojure.lang.LazySeq"
+    },
+    {
+      "type": "clojure.lang.LineNumberingPushbackReader"
+    },
+    {
+      "type": "clojure.lang.LispReader$ReaderException"
+    },
+    {
+      "type": "clojure.lang.Murmur3"
+    },
+    {
+      "type": "clojure.lang.Namespace"
+    },
+    {
+      "type": "clojure.lang.PersistentHashMap"
+    },
+    {
+      "type": "clojure.lang.PersistentHashSet"
+    },
+    {
+      "type": "clojure.lang.PersistentQueue"
+    },
+    {
+      "type": "clojure.lang.PersistentVector"
+    },
+    {
+      "type": "clojure.lang.RT"
+    },
+    {
+      "type": "clojure.lang.Ratio"
+    },
+    {
+      "type": "clojure.lang.ReaderConditional"
+    },
+    {
+      "type": "clojure.lang.Reflector"
+    },
+    {
+      "type": "clojure.lang.SeqIterator"
+    },
+    {
+      "type": "clojure.lang.Sequential"
+    },
+    {
+      "type": "clojure.lang.StringSeq"
+    },
+    {
+      "type": "clojure.lang.Symbol"
+    },
+    {
+      "type": "clojure.lang.TaggedLiteral"
+    },
+    {
+      "type": "clojure.lang.Util"
+    },
+    {
+      "type": "clojure.lang.Var"
+    },
+    {
+      "type": "clojure.lang.Volatile"
+    },
+    {
+      "type": "clojure.main__init"
+    },
+    {
+      "type": "clojure.pprint.PrettyFlush"
+    },
+    {
+      "type": "clojure.pprint.cl_format__init"
+    },
+    {
+      "type": "clojure.pprint.column_writer__init"
+    },
+    {
+      "type": "clojure.pprint.dispatch__init"
+    },
+    {
+      "type": "clojure.pprint.pprint_base__init"
+    },
+    {
+      "type": "clojure.pprint.pretty_writer__init"
+    },
+    {
+      "type": "clojure.pprint.print_table__init"
+    },
+    {
+      "type": "clojure.pprint.utilities__init"
+    },
+    {
+      "type": "clojure.pprint__init"
+    },
+    {
+      "type": "clojure.set__init"
+    },
+    {
+      "type": "clojure.spec.alpha.Spec"
+    },
+    {
+      "type": "clojure.spec.alpha.Specize"
+    },
+    {
+      "type": "clojure.spec.alpha__init"
+    },
+    {
+      "type": "clojure.spec.gen.alpha__init"
+    },
+    {
+      "type": "clojure.string__init"
+    },
+    {
+      "type": "clojure.tools.cli__init"
+    },
+    {
+      "type": "clojure.uuid__init"
+    },
+    {
+      "type": "clojure.walk__init"
+    },
+    {
+      "type": "expound.alpha__init"
+    },
+    {
+      "type": "expound.ansi__init"
+    },
+    {
+      "type": "expound.paths.KeyPathSegment"
+    },
+    {
+      "type": "expound.paths.KeyValuePathSegment"
+    },
+    {
+      "type": "expound.paths__init"
+    },
+    {
+      "type": "expound.printer__init"
+    },
+    {
+      "type": "expound.problems__init"
+    },
+    {
+      "type": "expound.util__init"
+    },
+    {
+      "type": "java.io.BufferedInputStream"
+    },
+    {
+      "type": "java.io.BufferedOutputStream"
+    },
+    {
+      "type": "java.io.BufferedReader"
+    },
+    {
+      "type": "java.io.BufferedWriter"
+    },
+    {
+      "type": "java.io.ByteArrayInputStream"
+    },
+    {
+      "type": "java.io.ByteArrayOutputStream"
+    },
+    {
+      "type": "java.io.CharArrayReader"
+    },
+    {
+      "type": "java.io.Closeable"
+    },
+    {
+      "type": "java.io.File",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "java.lang.String"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "java.io.FileInputStream"
+    },
+    {
+      "type": "java.io.FileOutputStream"
+    },
+    {
+      "type": "java.io.FileWriter"
+    },
+    {
+      "type": "java.io.InputStream"
+    },
+    {
+      "type": "java.io.InputStreamReader"
+    },
+    {
+      "type": "java.io.NotSerializableException"
+    },
+    {
+      "type": "java.io.OutputStream"
+    },
+    {
+      "type": "java.io.OutputStreamWriter"
+    },
+    {
+      "type": "java.io.PrintWriter"
+    },
+    {
+      "type": "java.io.PushbackReader"
+    },
+    {
+      "type": "java.io.Reader"
+    },
+    {
+      "type": "java.io.Serializable"
+    },
+    {
+      "type": "java.io.StringReader"
+    },
+    {
+      "type": "java.io.Writer"
+    },
+    {
+      "type": "java.lang.Boolean"
+    },
+    {
+      "type": "java.lang.Character"
+    },
+    {
+      "type": "java.lang.Class"
+    },
+    {
+      "type": "java.lang.Double"
+    },
+    {
+      "type": "java.lang.Float"
+    },
+    {
+      "type": "java.lang.Integer"
+    },
+    {
+      "type": "java.lang.Iterable"
+    },
+    {
+      "type": "java.lang.Long"
+    },
+    {
+      "type": "java.lang.Number"
+    },
+    {
+      "type": "java.lang.Object"
+    },
+    {
+      "type": "java.lang.StackTraceElement"
+    },
+    {
+      "type": "java.lang.String",
+      "methods": [
+        {
+          "name": "contains",
+          "parameterTypes": [
+            "java.lang.CharSequence"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "java.lang.ThreadLocal"
+    },
+    {
+      "type": "java.lang.Throwable"
+    },
+    {
+      "type": "java.lang.UnsupportedOperationException"
+    },
+    {
+      "type": "java.lang.annotation.Annotation"
+    },
+    {
+      "type": "java.lang.annotation.Retention"
+    },
+    {
+      "type": "java.lang.reflect.Array"
+    },
+    {
+      "type": "java.lang.reflect.Constructor"
+    },
+    {
+      "type": "java.lang.reflect.Field"
+    },
+    {
+      "type": "java.lang.reflect.Method",
+      "methods": [
+        {
+          "name": "canAccess",
+          "parameterTypes": [
+            "java.lang.Object"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "java.lang.reflect.Modifier"
+    },
+    {
+      "type": "java.math.BigDecimal"
+    },
+    {
+      "type": "java.math.BigInteger"
+    },
+    {
+      "type": "java.net.InetAddress"
+    },
+    {
+      "type": "java.net.MalformedURLException"
+    },
+    {
+      "type": "java.net.ServerSocket"
+    },
+    {
+      "type": "java.net.Socket"
+    },
+    {
+      "type": "java.net.SocketException"
+    },
+    {
+      "type": "java.net.URI"
+    },
+    {
+      "type": "java.net.URL"
+    },
+    {
+      "type": "java.net.URLDecoder"
+    },
+    {
+      "type": "java.net.URLEncoder"
+    },
+    {
+      "type": "java.nio.file.Files"
+    },
+    {
+      "type": "java.nio.file.attribute.FileAttribute"
+    },
+    {
+      "type": "java.sql.Timestamp"
+    },
+    {
+      "type": "java.time.Instant"
+    },
+    {
+      "type": "java.util.Calendar"
+    },
+    {
+      "type": "java.util.Collection"
+    },
+    {
+      "type": "java.util.Date"
+    },
+    {
+      "type": "java.util.GregorianCalendar"
+    },
+    {
+      "type": "java.util.List"
+    },
+    {
+      "type": "java.util.Map"
+    },
+    {
+      "type": "java.util.Properties"
+    },
+    {
+      "type": "java.util.RandomAccess"
+    },
+    {
+      "type": "java.util.Set"
+    },
+    {
+      "type": "java.util.TimeZone"
+    },
+    {
+      "type": "java.util.UUID"
+    },
+    {
+      "type": "java.util.concurrent.ArrayBlockingQueue"
+    },
+    {
+      "type": "java.util.concurrent.BlockingQueue"
+    },
+    {
+      "type": "java.util.concurrent.LinkedBlockingQueue"
+    },
+    {
+      "type": "java.util.concurrent.atomic.AtomicBoolean",
+      "fields": [
+        {
+          "name": "value"
+        }
+      ]
+    },
+    {
+      "type": "java.util.concurrent.locks.ReentrantLock"
+    },
+    {
+      "type": "java.util.regex.Matcher"
+    },
+    {
+      "type": "java.util.regex.Pattern"
+    },
+    {
+      "type": "javax.imageio.ImageIO",
+      "methods": [
+        {
+          "name": "write",
+          "parameterTypes": [
+            "java.awt.image.RenderedImage",
+            "java.lang.String",
+            "java.io.File"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "javax.imageio.spi.ImageReaderSpi"
+    },
+    {
+      "type": "javax.imageio.spi.ImageWriterSpi"
+    },
+    {
+      "type": "orchestra.spec.test__init"
+    },
+    {
+      "type": "org.freehep.graphicsio.gif.GIFImageWriterSpi"
+    },
+    {
+      "type": "org.freehep.graphicsio.ppm.PPMImageWriterSpi"
+    },
+    {
+      "type": "org.freehep.graphicsio.raw.RawImageWriterSpi"
+    },
+    {
+      "type": "org.openscience.cdk.depict.Depiction",
+      "methods": [
+        {
+          "name": "toImg",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.openscience.cdk.depict.DepictionGenerator"
+    },
+    {
+      "type": "org.openscience.cdk.depict.MolGridDepiction"
+    },
+    {
+      "type": "org.openscience.cdk.renderer.RendererModel$Padding",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.openscience.cdk.renderer.generators.BasicSceneGenerator$ArrowHeadWidth",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.openscience.cdk.renderer.generators.BasicSceneGenerator$BackgroundColor",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.openscience.cdk.renderer.generators.BasicSceneGenerator$BondLength",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.openscience.cdk.renderer.generators.BasicSceneGenerator$FitToScreen",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.openscience.cdk.renderer.generators.BasicSceneGenerator$FontName",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.openscience.cdk.renderer.generators.BasicSceneGenerator$ForegroundColor",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.openscience.cdk.renderer.generators.BasicSceneGenerator$Margin",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.openscience.cdk.renderer.generators.BasicSceneGenerator$Scale",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.openscience.cdk.renderer.generators.BasicSceneGenerator$ShowMoleculeTitle",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.openscience.cdk.renderer.generators.BasicSceneGenerator$ShowReactionTitle",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.openscience.cdk.renderer.generators.BasicSceneGenerator$ShowTooltip",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.openscience.cdk.renderer.generators.BasicSceneGenerator$UseAntiAliasing",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.openscience.cdk.renderer.generators.BasicSceneGenerator$UsedFontStyle",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.openscience.cdk.renderer.generators.BasicSceneGenerator$ZoomFactor",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.openscience.cdk.renderer.generators.standard.StandardGenerator$AnnotationColor",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.openscience.cdk.renderer.generators.standard.StandardGenerator$AnnotationDistance",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.openscience.cdk.renderer.generators.standard.StandardGenerator$AnnotationFontScale",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.openscience.cdk.renderer.generators.standard.StandardGenerator$AtomColor",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.openscience.cdk.renderer.generators.standard.StandardGenerator$BondSeparation",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.openscience.cdk.renderer.generators.standard.StandardGenerator$DashSection",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.openscience.cdk.renderer.generators.standard.StandardGenerator$DelocalisedDonutsBondDisplay",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.openscience.cdk.renderer.generators.standard.StandardGenerator$DeuteriumSymbol",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.openscience.cdk.renderer.generators.standard.StandardGenerator$FancyBoldWedges",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.openscience.cdk.renderer.generators.standard.StandardGenerator$FancyHashedWedges",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.openscience.cdk.renderer.generators.standard.StandardGenerator$ForceDelocalisedBondDisplay",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.openscience.cdk.renderer.generators.standard.StandardGenerator$HashSpacing",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.openscience.cdk.renderer.generators.standard.StandardGenerator$Highlighting",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.openscience.cdk.renderer.generators.standard.StandardGenerator$OmitMajorIsotopes",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.openscience.cdk.renderer.generators.standard.StandardGenerator$OuterGlowWidth",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.openscience.cdk.renderer.generators.standard.StandardGenerator$PseudoFontStyle",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.openscience.cdk.renderer.generators.standard.StandardGenerator$SgroupBracketDepth",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.openscience.cdk.renderer.generators.standard.StandardGenerator$SgroupFontScale",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.openscience.cdk.renderer.generators.standard.StandardGenerator$StrokeRatio",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.openscience.cdk.renderer.generators.standard.StandardGenerator$SymbolMarginRatio",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.openscience.cdk.renderer.generators.standard.StandardGenerator$Visibility",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.openscience.cdk.renderer.generators.standard.StandardGenerator$WaveSpacing",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.openscience.cdk.renderer.generators.standard.StandardGenerator$WedgeRatio",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.openscience.cdk.silent.AdductFormula"
+    },
+    {
+      "type": "org.openscience.cdk.silent.AminoAcid"
+    },
+    {
+      "type": "org.openscience.cdk.silent.Atom",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        },
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "int"
+          ]
+        },
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "java.lang.String"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "org.openscience.cdk.silent.AtomContainer",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        },
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "int",
+            "int",
+            "int",
+            "int"
+          ]
+        },
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "org.openscience.cdk.interfaces.IAtomContainer"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "org.openscience.cdk.silent.AtomContainerSet",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.openscience.cdk.silent.AtomType"
+    },
+    {
+      "type": "org.openscience.cdk.silent.BioPolymer"
+    },
+    {
+      "type": "org.openscience.cdk.silent.Bond",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        },
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "org.openscience.cdk.interfaces.IAtom",
+            "org.openscience.cdk.interfaces.IAtom"
+          ]
+        },
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "org.openscience.cdk.interfaces.IAtom",
+            "org.openscience.cdk.interfaces.IAtom",
+            "org.openscience.cdk.interfaces.IBond$Order"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "org.openscience.cdk.silent.ChemFile"
+    },
+    {
+      "type": "org.openscience.cdk.silent.ChemModel"
+    },
+    {
+      "type": "org.openscience.cdk.silent.ChemObject"
+    },
+    {
+      "type": "org.openscience.cdk.silent.ChemSequence"
+    },
+    {
+      "type": "org.openscience.cdk.silent.Crystal"
+    },
+    {
+      "type": "org.openscience.cdk.silent.ElectronContainer"
+    },
+    {
+      "type": "org.openscience.cdk.silent.Element"
+    },
+    {
+      "type": "org.openscience.cdk.silent.FragmentAtom"
+    },
+    {
+      "type": "org.openscience.cdk.silent.Isotope"
+    },
+    {
+      "type": "org.openscience.cdk.silent.LonePair"
+    },
+    {
+      "type": "org.openscience.cdk.silent.Mapping"
+    },
+    {
+      "type": "org.openscience.cdk.silent.MolecularFormula"
+    },
+    {
+      "type": "org.openscience.cdk.silent.MolecularFormulaSet"
+    },
+    {
+      "type": "org.openscience.cdk.silent.Monomer"
+    },
+    {
+      "type": "org.openscience.cdk.silent.PDBAtom"
+    },
+    {
+      "type": "org.openscience.cdk.silent.PDBMonomer"
+    },
+    {
+      "type": "org.openscience.cdk.silent.PDBPolymer"
+    },
+    {
+      "type": "org.openscience.cdk.silent.PDBStructure"
+    },
+    {
+      "type": "org.openscience.cdk.silent.Polymer"
+    },
+    {
+      "type": "org.openscience.cdk.silent.PseudoAtom"
+    },
+    {
+      "type": "org.openscience.cdk.silent.Reaction"
+    },
+    {
+      "type": "org.openscience.cdk.silent.ReactionScheme"
+    },
+    {
+      "type": "org.openscience.cdk.silent.ReactionSet"
+    },
+    {
+      "type": "org.openscience.cdk.silent.Ring",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "org.openscience.cdk.interfaces.IAtomContainer"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "org.openscience.cdk.silent.RingSet",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.openscience.cdk.silent.SilentChemObjectBuilder"
+    },
+    {
+      "type": "org.openscience.cdk.silent.SingleElectron"
+    },
+    {
+      "type": "org.openscience.cdk.silent.Strand"
+    },
+    {
+      "type": "org.openscience.cdk.silent.Substance"
+    },
+    {
+      "type": "org.openscience.cdk.smiles.SmilesParser"
+    },
+    {
+      "type": "org.openscience.cdk.stereo.DoubleBondStereochemistry"
+    },
+    {
+      "type": "org.openscience.cdk.stereo.TetrahedralChirality"
+    },
+    {
+      "type": "org.openscience.cdk.tools.Log4jLoggingTool"
+    },
+    {
+      "type": "org.openscience.cdk.tools.Slf4jLoggingTool"
+    },
+    {
+      "type": "sun.java2d.marlin.DMarlinRenderingEngine",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "sun.security.provider.NativePRNG",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "java.security.SecureRandomParameters"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "sun.security.provider.SHA",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    }
+  ],
+  "resources": [
+    {
+      "glob": "META-INF/services/java.lang.System$LoggerFinder"
+    },
+    {
+      "glob": "META-INF/services/javax.imageio.spi.ImageInputStreamSpi"
+    },
+    {
+      "glob": "META-INF/services/javax.imageio.spi.ImageOutputStreamSpi"
+    },
+    {
+      "glob": "META-INF/services/javax.imageio.spi.ImageReaderSpi"
+    },
+    {
+      "glob": "META-INF/services/javax.imageio.spi.ImageTranscoderSpi"
+    },
+    {
+      "glob": "META-INF/services/javax.imageio.spi.ImageWriterSpi"
+    },
+    {
+      "glob": "cdk/cdkcli.clj"
+    },
+    {
+      "glob": "cdk/cdkcli.cljc"
+    },
+    {
+      "glob": "cdk/cdkcli__init.class"
+    },
+    {
+      "glob": "cdk/convertsmiles.clj"
+    },
+    {
+      "glob": "cdk/convertsmiles.cljc"
+    },
+    {
+      "glob": "cdk/convertsmiles__init.class"
+    },
+    {
+      "glob": "cdk/depict.clj"
+    },
+    {
+      "glob": "cdk/depict.cljc"
+    },
+    {
+      "glob": "cdk/depict__init.class"
+    },
+    {
+      "glob": "cheshire/core.clj"
+    },
+    {
+      "glob": "cheshire/core.cljc"
+    },
+    {
+      "glob": "cheshire/core__init.class"
+    },
+    {
+      "glob": "cli_matic/core.clj"
+    },
+    {
+      "glob": "cli_matic/core.cljc"
+    },
+    {
+      "glob": "cli_matic/core__init.class"
+    },
+    {
+      "glob": "cli_matic/help_gen.clj"
+    },
+    {
+      "glob": "cli_matic/help_gen.cljc"
+    },
+    {
+      "glob": "cli_matic/help_gen__init.class"
+    },
+    {
+      "glob": "cli_matic/optionals.clj"
+    },
+    {
+      "glob": "cli_matic/optionals__init.class"
+    },
+    {
+      "glob": "cli_matic/platform.clj"
+    },
+    {
+      "glob": "cli_matic/platform__init.class"
+    },
+    {
+      "glob": "cli_matic/platform_macros.clj"
+    },
+    {
+      "glob": "cli_matic/platform_macros.cljc"
+    },
+    {
+      "glob": "cli_matic/platform_macros__init.class"
+    },
+    {
+      "glob": "cli_matic/presets.clj"
+    },
+    {
+      "glob": "cli_matic/presets.cljc"
+    },
+    {
+      "glob": "cli_matic/presets__init.class"
+    },
+    {
+      "glob": "cli_matic/specs.clj"
+    },
+    {
+      "glob": "cli_matic/specs.cljc"
+    },
+    {
+      "glob": "cli_matic/specs__init.class"
+    },
+    {
+      "glob": "cli_matic/utils.clj"
+    },
+    {
+      "glob": "cli_matic/utils.cljc"
+    },
+    {
+      "glob": "cli_matic/utils__init.class"
+    },
+    {
+      "glob": "cli_matic/utils_candidates.clj"
+    },
+    {
+      "glob": "cli_matic/utils_candidates.cljc"
+    },
+    {
+      "glob": "cli_matic/utils_candidates__init.class"
+    },
+    {
+      "glob": "cli_matic/utils_v2.clj"
+    },
+    {
+      "glob": "cli_matic/utils_v2.cljc"
+    },
+    {
+      "glob": "cli_matic/utils_v2__init.class"
+    },
+    {
+      "glob": "clj_yaml/core.clj"
+    },
+    {
+      "glob": "clj_yaml/core.cljc"
+    },
+    {
+      "glob": "clj_yaml/core__init.class"
+    },
+    {
+      "glob": "clojure/core.clj"
+    },
+    {
+      "glob": "clojure/core/async/impl/channels.clj"
+    },
+    {
+      "glob": "clojure/core/async/impl/channels.cljc"
+    },
+    {
+      "glob": "clojure/core/async/impl/channels__init.class"
+    },
+    {
+      "glob": "clojure/core/protocols.clj"
+    },
+    {
+      "glob": "clojure/core/protocols__init.class"
+    },
+    {
+      "glob": "clojure/core/server.clj"
+    },
+    {
+      "glob": "clojure/core/server__init.class"
+    },
+    {
+      "glob": "clojure/core__init.class"
+    },
+    {
+      "glob": "clojure/core_deftype.clj"
+    },
+    {
+      "glob": "clojure/core_deftype__init.class"
+    },
+    {
+      "glob": "clojure/core_print.clj"
+    },
+    {
+      "glob": "clojure/core_print__init.class"
+    },
+    {
+      "glob": "clojure/core_proxy.clj"
+    },
+    {
+      "glob": "clojure/core_proxy__init.class"
+    },
+    {
+      "glob": "clojure/edn.clj"
+    },
+    {
+      "glob": "clojure/edn__init.class"
+    },
+    {
+      "glob": "clojure/genclass.clj"
+    },
+    {
+      "glob": "clojure/genclass__init.class"
+    },
+    {
+      "glob": "clojure/gvec.clj"
+    },
+    {
+      "glob": "clojure/gvec__init.class"
+    },
+    {
+      "glob": "clojure/instant.clj"
+    },
+    {
+      "glob": "clojure/instant__init.class"
+    },
+    {
+      "glob": "clojure/java/io.clj"
+    },
+    {
+      "glob": "clojure/java/io__init.class"
+    },
+    {
+      "glob": "clojure/main.clj"
+    },
+    {
+      "glob": "clojure/main__init.class"
+    },
+    {
+      "glob": "clojure/pprint.clj"
+    },
+    {
+      "glob": "clojure/pprint/cl_format.clj"
+    },
+    {
+      "glob": "clojure/pprint/cl_format__init.class"
+    },
+    {
+      "glob": "clojure/pprint/column_writer.clj"
+    },
+    {
+      "glob": "clojure/pprint/column_writer__init.class"
+    },
+    {
+      "glob": "clojure/pprint/dispatch.clj"
+    },
+    {
+      "glob": "clojure/pprint/dispatch__init.class"
+    },
+    {
+      "glob": "clojure/pprint/pprint_base.clj"
+    },
+    {
+      "glob": "clojure/pprint/pprint_base__init.class"
+    },
+    {
+      "glob": "clojure/pprint/pretty_writer.clj"
+    },
+    {
+      "glob": "clojure/pprint/pretty_writer__init.class"
+    },
+    {
+      "glob": "clojure/pprint/print_table.clj"
+    },
+    {
+      "glob": "clojure/pprint/print_table__init.class"
+    },
+    {
+      "glob": "clojure/pprint/utilities.clj"
+    },
+    {
+      "glob": "clojure/pprint/utilities__init.class"
+    },
+    {
+      "glob": "clojure/pprint__init.class"
+    },
+    {
+      "glob": "clojure/set.clj"
+    },
+    {
+      "glob": "clojure/set__init.class"
+    },
+    {
+      "glob": "clojure/spec/alpha.clj"
+    },
+    {
+      "glob": "clojure/spec/alpha__init.class"
+    },
+    {
+      "glob": "clojure/spec/gen/alpha.clj"
+    },
+    {
+      "glob": "clojure/spec/gen/alpha__init.class"
+    },
+    {
+      "glob": "clojure/string.clj"
+    },
+    {
+      "glob": "clojure/string__init.class"
+    },
+    {
+      "glob": "clojure/tools/cli.clj"
+    },
+    {
+      "glob": "clojure/tools/cli.cljc"
+    },
+    {
+      "glob": "clojure/tools/cli__init.class"
+    },
+    {
+      "glob": "clojure/uuid.clj"
+    },
+    {
+      "glob": "clojure/uuid__init.class"
+    },
+    {
+      "glob": "clojure/version.properties"
+    },
+    {
+      "glob": "clojure/walk.clj"
+    },
+    {
+      "glob": "clojure/walk__init.class"
+    },
+    {
+      "glob": "data_readers.clj"
+    },
+    {
+      "glob": "data_readers.cljc"
+    },
+    {
+      "glob": "expound/alpha.clj"
+    },
+    {
+      "glob": "expound/alpha.cljc"
+    },
+    {
+      "glob": "expound/alpha__init.class"
+    },
+    {
+      "glob": "expound/ansi.clj"
+    },
+    {
+      "glob": "expound/ansi.cljc"
+    },
+    {
+      "glob": "expound/ansi__init.class"
+    },
+    {
+      "glob": "expound/paths.clj"
+    },
+    {
+      "glob": "expound/paths.cljc"
+    },
+    {
+      "glob": "expound/paths__init.class"
+    },
+    {
+      "glob": "expound/printer.clj"
+    },
+    {
+      "glob": "expound/printer.cljc"
+    },
+    {
+      "glob": "expound/printer__init.class"
+    },
+    {
+      "glob": "expound/problems.clj"
+    },
+    {
+      "glob": "expound/problems.cljc"
+    },
+    {
+      "glob": "expound/problems__init.class"
+    },
+    {
+      "glob": "expound/util.clj"
+    },
+    {
+      "glob": "expound/util.cljc"
+    },
+    {
+      "glob": "expound/util__init.class"
+    },
+    {
+      "glob": "orchestra/spec/test.clj"
+    },
+    {
+      "glob": "orchestra/spec/test.cljc"
+    },
+    {
+      "glob": "orchestra/spec/test__init.class"
+    },
+    {
+      "glob": "org/openscience/cdk/app/group_abbr.smi"
+    },
+    {
+      "glob": "org/openscience/cdk/app/reagent_abbr.smi"
+    },
+    {
+      "glob": "org/openscience/cdk/graph/invariant/primes.dat"
+    },
+    {
+      "glob": "org/openscience/cdk/layout/chebi-ring-templates.smi"
+    },
+    {
+      "glob": "org/openscience/cdk/layout/custom-templates.smi"
+    },
+    {
+      "glob": "org/openscience/cdk/layout/macro.smi"
+    },
+    {
+      "glob": "uk/ac/ebi/beam/element-defaults.txt"
+    },
+    {
+      "glob": "user.clj"
+    },
+    {
+      "module": "java.desktop",
+      "glob": "sun/awt/resources/awt_en.properties"
+    },
+    {
+      "module": "java.desktop",
+      "glob": "sun/awt/resources/awt_en_US.properties"
+    },
+    {
+      "module": "java.desktop",
+      "glob": "sun/awt/resources/awtosx_en.properties"
+    },
+    {
+      "module": "java.desktop",
+      "glob": "sun/awt/resources/awtosx_en_US.properties"
+    }
+  ],
+  "bundles": [
+    {
+      "name": "sun.awt.resources.awt",
+      "locales": [
+        "en-US"
+      ]
+    },
+    {
+      "name": "sun.awt.resources.awtosx",
+      "locales": [
+        "en-US"
+      ]
+    }
+  ],
+  "jni": [
+    {
+      "type": "[Lsun.java2d.loops.GraphicsPrimitive;"
+    },
+    {
+      "type": "com.apple.eawt._AppEventHandler",
+      "methods": [
+        {
+          "name": "handleNativeNotification",
+          "parameterTypes": [
+            "int"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "com.apple.eawt._AppMenuBarHandler",
+      "methods": [
+        {
+          "name": "initMenuStates",
+          "parameterTypes": [
+            "boolean",
+            "boolean",
+            "boolean",
+            "boolean"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "java.awt.AlphaComposite",
+      "fields": [
+        {
+          "name": "extraAlpha"
+        },
+        {
+          "name": "rule"
+        }
+      ]
+    },
+    {
+      "type": "java.awt.Color",
+      "methods": [
+        {
+          "name": "getRGB",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "java.awt.DisplayMode",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "int",
+            "int",
+            "int",
+            "int"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "java.awt.event.InputEvent",
+      "methods": [
+        {
+          "name": "getButtonDownMasks",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "java.awt.geom.AffineTransform",
+      "fields": [
+        {
+          "name": "m00"
+        },
+        {
+          "name": "m01"
+        },
+        {
+          "name": "m02"
+        },
+        {
+          "name": "m10"
+        },
+        {
+          "name": "m11"
+        },
+        {
+          "name": "m12"
+        }
+      ]
+    },
+    {
+      "type": "java.awt.geom.GeneralPath",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        },
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "int",
+            "byte[]",
+            "int",
+            "float[]",
+            "int"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "java.awt.geom.Path2D",
+      "fields": [
+        {
+          "name": "numTypes"
+        },
+        {
+          "name": "pointTypes"
+        },
+        {
+          "name": "windingRule"
+        }
+      ]
+    },
+    {
+      "type": "java.awt.geom.Path2D$Float",
+      "fields": [
+        {
+          "name": "floatCoords"
+        }
+      ]
+    },
+    {
+      "type": "java.awt.geom.Point2D$Float",
+      "fields": [
+        {
+          "name": "x"
+        },
+        {
+          "name": "y"
+        }
+      ],
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "float",
+            "float"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "java.awt.geom.Rectangle2D$Double",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "double",
+            "double",
+            "double",
+            "double"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "java.awt.geom.Rectangle2D$Float",
+      "fields": [
+        {
+          "name": "height"
+        },
+        {
+          "name": "width"
+        },
+        {
+          "name": "x"
+        },
+        {
+          "name": "y"
+        }
+      ],
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        },
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "float",
+            "float",
+            "float",
+            "float"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "java.awt.image.BufferedImage",
+      "fields": [
+        {
+          "name": "colorModel"
+        },
+        {
+          "name": "imageType"
+        },
+        {
+          "name": "raster"
+        }
+      ],
+      "methods": [
+        {
+          "name": "getRGB",
+          "parameterTypes": [
+            "int",
+            "int",
+            "int",
+            "int",
+            "int[]",
+            "int",
+            "int"
+          ]
+        },
+        {
+          "name": "setRGB",
+          "parameterTypes": [
+            "int",
+            "int",
+            "int",
+            "int",
+            "int[]",
+            "int",
+            "int"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "java.awt.image.ColorModel",
+      "fields": [
+        {
+          "name": "colorSpace"
+        },
+        {
+          "name": "colorSpaceType"
+        },
+        {
+          "name": "isAlphaPremultiplied"
+        },
+        {
+          "name": "is_sRGB"
+        },
+        {
+          "name": "nBits"
+        },
+        {
+          "name": "numComponents"
+        },
+        {
+          "name": "supportsAlpha"
+        },
+        {
+          "name": "transparency"
+        }
+      ],
+      "methods": [
+        {
+          "name": "getRGBdefault",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "java.awt.image.IndexColorModel",
+      "fields": [
+        {
+          "name": "allgrayopaque"
+        },
+        {
+          "name": "colorData"
+        },
+        {
+          "name": "map_size"
+        },
+        {
+          "name": "rgb"
+        },
+        {
+          "name": "transparent_index"
+        }
+      ]
+    },
+    {
+      "type": "java.awt.image.Raster",
+      "fields": [
+        {
+          "name": "dataBuffer"
+        },
+        {
+          "name": "height"
+        },
+        {
+          "name": "minX"
+        },
+        {
+          "name": "minY"
+        },
+        {
+          "name": "numBands"
+        },
+        {
+          "name": "numDataElements"
+        },
+        {
+          "name": "sampleModel"
+        },
+        {
+          "name": "sampleModelTranslateX"
+        },
+        {
+          "name": "sampleModelTranslateY"
+        },
+        {
+          "name": "width"
+        }
+      ]
+    },
+    {
+      "type": "java.awt.image.SampleModel",
+      "fields": [
+        {
+          "name": "height"
+        },
+        {
+          "name": "width"
+        }
+      ],
+      "methods": [
+        {
+          "name": "getPixels",
+          "parameterTypes": [
+            "int",
+            "int",
+            "int",
+            "int",
+            "int[]",
+            "java.awt.image.DataBuffer"
+          ]
+        },
+        {
+          "name": "setPixels",
+          "parameterTypes": [
+            "int",
+            "int",
+            "int",
+            "int",
+            "int[]",
+            "java.awt.image.DataBuffer"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "java.lang.System",
+      "methods": [
+        {
+          "name": "getProperty",
+          "parameterTypes": [
+            "java.lang.String"
+          ]
+        },
+        {
+          "name": "load",
+          "parameterTypes": [
+            "java.lang.String"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "java.util.ArrayList",
+      "methods": [
+        {
+          "name": "add",
+          "parameterTypes": [
+            "java.lang.Object"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "sun.awt.AWTAutoShutdown",
+      "methods": [
+        {
+          "name": "notifyToolkitThreadBusy",
+          "parameterTypes": []
+        },
+        {
+          "name": "notifyToolkitThreadFree",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "sun.awt.SunHints",
+      "fields": [
+        {
+          "name": "INTVAL_STROKE_PURE"
+        }
+      ]
+    },
+    {
+      "type": "sun.awt.image.BufImgSurfaceData$ICMColorData",
+      "fields": [
+        {
+          "name": "pData"
+        }
+      ],
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "long"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "sun.awt.image.ByteComponentRaster",
+      "fields": [
+        {
+          "name": "data"
+        },
+        {
+          "name": "dataOffsets"
+        },
+        {
+          "name": "pixelStride"
+        },
+        {
+          "name": "scanlineStride"
+        },
+        {
+          "name": "type"
+        }
+      ]
+    },
+    {
+      "type": "sun.font.CFontManager",
+      "methods": [
+        {
+          "name": "registerFont",
+          "parameterTypes": [
+            "java.lang.String",
+            "java.lang.String"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "sun.font.CharToGlyphMapper",
+      "methods": [
+        {
+          "name": "charToGlyph",
+          "parameterTypes": [
+            "int"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "sun.font.Font2D",
+      "methods": [
+        {
+          "name": "canDisplay",
+          "parameterTypes": [
+            "char"
+          ]
+        },
+        {
+          "name": "charToGlyph",
+          "parameterTypes": [
+            "int"
+          ]
+        },
+        {
+          "name": "charToVariationGlyph",
+          "parameterTypes": [
+            "int",
+            "int"
+          ]
+        },
+        {
+          "name": "getMapper",
+          "parameterTypes": []
+        },
+        {
+          "name": "getTableBytes",
+          "parameterTypes": [
+            "int"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "sun.font.FontStrike",
+      "methods": [
+        {
+          "name": "getGlyphMetrics",
+          "parameterTypes": [
+            "int"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "sun.font.GlyphList",
+      "fields": [
+        {
+          "name": "gposx"
+        },
+        {
+          "name": "gposy"
+        },
+        {
+          "name": "images"
+        },
+        {
+          "name": "lcdRGBOrder"
+        },
+        {
+          "name": "lcdSubPixPos"
+        },
+        {
+          "name": "len"
+        },
+        {
+          "name": "positions"
+        },
+        {
+          "name": "usePositions"
+        }
+      ]
+    },
+    {
+      "type": "sun.font.PhysicalStrike",
+      "fields": [
+        {
+          "name": "pScalerContext"
+        }
+      ],
+      "methods": [
+        {
+          "name": "adjustPoint",
+          "parameterTypes": [
+            "java.awt.geom.Point2D$Float"
+          ]
+        },
+        {
+          "name": "getGlyphPoint",
+          "parameterTypes": [
+            "int",
+            "int"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "sun.font.StrikeMetrics",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "float",
+            "float",
+            "float",
+            "float",
+            "float",
+            "float",
+            "float",
+            "float",
+            "float",
+            "float"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "sun.font.TrueTypeFont",
+      "methods": [
+        {
+          "name": "readBlock",
+          "parameterTypes": [
+            "java.nio.ByteBuffer",
+            "int",
+            "int"
+          ]
+        },
+        {
+          "name": "readBytes",
+          "parameterTypes": [
+            "int",
+            "int"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "sun.font.Type1Font",
+      "methods": [
+        {
+          "name": "readFile",
+          "parameterTypes": [
+            "java.nio.ByteBuffer"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "sun.java2d.Disposer",
+      "methods": [
+        {
+          "name": "addRecord",
+          "parameterTypes": [
+            "java.lang.Object",
+            "long",
+            "long"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "sun.java2d.InvalidPipeException"
+    },
+    {
+      "type": "sun.java2d.NullSurfaceData"
+    },
+    {
+      "type": "sun.java2d.SunGraphics2D",
+      "fields": [
+        {
+          "name": "clipRegion"
+        },
+        {
+          "name": "composite"
+        },
+        {
+          "name": "eargb"
+        },
+        {
+          "name": "lcdTextContrast"
+        },
+        {
+          "name": "pixel"
+        },
+        {
+          "name": "strokeHint"
+        }
+      ]
+    },
+    {
+      "type": "sun.java2d.SurfaceData",
+      "fields": [
+        {
+          "name": "pData"
+        },
+        {
+          "name": "valid"
+        }
+      ]
+    },
+    {
+      "type": "sun.java2d.loops.Blit",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "long",
+            "sun.java2d.loops.SurfaceType",
+            "sun.java2d.loops.CompositeType",
+            "sun.java2d.loops.SurfaceType"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "sun.java2d.loops.BlitBg",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "long",
+            "sun.java2d.loops.SurfaceType",
+            "sun.java2d.loops.CompositeType",
+            "sun.java2d.loops.SurfaceType"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "sun.java2d.loops.CompositeType",
+      "fields": [
+        {
+          "name": "AnyAlpha"
+        },
+        {
+          "name": "Src"
+        },
+        {
+          "name": "SrcNoEa"
+        },
+        {
+          "name": "SrcOver"
+        },
+        {
+          "name": "SrcOverNoEa"
+        },
+        {
+          "name": "Xor"
+        }
+      ]
+    },
+    {
+      "type": "sun.java2d.loops.DrawGlyphList",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "long",
+            "sun.java2d.loops.SurfaceType",
+            "sun.java2d.loops.CompositeType",
+            "sun.java2d.loops.SurfaceType"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "sun.java2d.loops.DrawGlyphListAA",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "long",
+            "sun.java2d.loops.SurfaceType",
+            "sun.java2d.loops.CompositeType",
+            "sun.java2d.loops.SurfaceType"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "sun.java2d.loops.DrawGlyphListLCD",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "long",
+            "sun.java2d.loops.SurfaceType",
+            "sun.java2d.loops.CompositeType",
+            "sun.java2d.loops.SurfaceType"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "sun.java2d.loops.DrawLine",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "long",
+            "sun.java2d.loops.SurfaceType",
+            "sun.java2d.loops.CompositeType",
+            "sun.java2d.loops.SurfaceType"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "sun.java2d.loops.DrawParallelogram",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "long",
+            "sun.java2d.loops.SurfaceType",
+            "sun.java2d.loops.CompositeType",
+            "sun.java2d.loops.SurfaceType"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "sun.java2d.loops.DrawPath",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "long",
+            "sun.java2d.loops.SurfaceType",
+            "sun.java2d.loops.CompositeType",
+            "sun.java2d.loops.SurfaceType"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "sun.java2d.loops.DrawPolygons",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "long",
+            "sun.java2d.loops.SurfaceType",
+            "sun.java2d.loops.CompositeType",
+            "sun.java2d.loops.SurfaceType"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "sun.java2d.loops.DrawRect",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "long",
+            "sun.java2d.loops.SurfaceType",
+            "sun.java2d.loops.CompositeType",
+            "sun.java2d.loops.SurfaceType"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "sun.java2d.loops.FillParallelogram",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "long",
+            "sun.java2d.loops.SurfaceType",
+            "sun.java2d.loops.CompositeType",
+            "sun.java2d.loops.SurfaceType"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "sun.java2d.loops.FillPath",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "long",
+            "sun.java2d.loops.SurfaceType",
+            "sun.java2d.loops.CompositeType",
+            "sun.java2d.loops.SurfaceType"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "sun.java2d.loops.FillRect",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "long",
+            "sun.java2d.loops.SurfaceType",
+            "sun.java2d.loops.CompositeType",
+            "sun.java2d.loops.SurfaceType"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "sun.java2d.loops.FillSpans",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "long",
+            "sun.java2d.loops.SurfaceType",
+            "sun.java2d.loops.CompositeType",
+            "sun.java2d.loops.SurfaceType"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "sun.java2d.loops.GraphicsPrimitive",
+      "fields": [
+        {
+          "name": "pNativePrim"
+        }
+      ]
+    },
+    {
+      "type": "sun.java2d.loops.GraphicsPrimitiveMgr",
+      "methods": [
+        {
+          "name": "register",
+          "parameterTypes": [
+            "sun.java2d.loops.GraphicsPrimitive[]"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "sun.java2d.loops.MaskBlit",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "long",
+            "sun.java2d.loops.SurfaceType",
+            "sun.java2d.loops.CompositeType",
+            "sun.java2d.loops.SurfaceType"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "sun.java2d.loops.MaskFill",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "long",
+            "sun.java2d.loops.SurfaceType",
+            "sun.java2d.loops.CompositeType",
+            "sun.java2d.loops.SurfaceType"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "sun.java2d.loops.ScaledBlit",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "long",
+            "sun.java2d.loops.SurfaceType",
+            "sun.java2d.loops.CompositeType",
+            "sun.java2d.loops.SurfaceType"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "sun.java2d.loops.SurfaceType",
+      "fields": [
+        {
+          "name": "Any3Byte"
+        },
+        {
+          "name": "Any4Byte"
+        },
+        {
+          "name": "AnyByte"
+        },
+        {
+          "name": "AnyColor"
+        },
+        {
+          "name": "AnyInt"
+        },
+        {
+          "name": "AnyShort"
+        },
+        {
+          "name": "ByteBinary1Bit"
+        },
+        {
+          "name": "ByteBinary2Bit"
+        },
+        {
+          "name": "ByteBinary4Bit"
+        },
+        {
+          "name": "ByteGray"
+        },
+        {
+          "name": "ByteIndexed"
+        },
+        {
+          "name": "ByteIndexedBm"
+        },
+        {
+          "name": "FourByteAbgr"
+        },
+        {
+          "name": "FourByteAbgrPre"
+        },
+        {
+          "name": "Index12Gray"
+        },
+        {
+          "name": "Index8Gray"
+        },
+        {
+          "name": "IntArgb"
+        },
+        {
+          "name": "IntArgbBm"
+        },
+        {
+          "name": "IntArgbPre"
+        },
+        {
+          "name": "IntBgr"
+        },
+        {
+          "name": "IntRgb"
+        },
+        {
+          "name": "IntRgbx"
+        },
+        {
+          "name": "OpaqueColor"
+        },
+        {
+          "name": "ThreeByteBgr"
+        },
+        {
+          "name": "Ushort4444Argb"
+        },
+        {
+          "name": "Ushort555Rgb"
+        },
+        {
+          "name": "Ushort555Rgbx"
+        },
+        {
+          "name": "Ushort565Rgb"
+        },
+        {
+          "name": "UshortGray"
+        },
+        {
+          "name": "UshortIndexed"
+        }
+      ]
+    },
+    {
+      "type": "sun.java2d.loops.TransformHelper",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "long",
+            "sun.java2d.loops.SurfaceType",
+            "sun.java2d.loops.CompositeType",
+            "sun.java2d.loops.SurfaceType"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "sun.java2d.loops.XORComposite",
+      "fields": [
+        {
+          "name": "alphaMask"
+        },
+        {
+          "name": "xorColor"
+        },
+        {
+          "name": "xorPixel"
+        }
+      ]
+    },
+    {
+      "type": "sun.java2d.pipe.Region",
+      "fields": [
+        {
+          "name": "bands"
+        },
+        {
+          "name": "endIndex"
+        },
+        {
+          "name": "hix"
+        },
+        {
+          "name": "hiy"
+        },
+        {
+          "name": "lox"
+        },
+        {
+          "name": "loy"
+        }
+      ]
+    },
+    {
+      "type": "sun.java2d.pipe.RegionIterator",
+      "fields": [
+        {
+          "name": "curIndex"
+        },
+        {
+          "name": "numXbands"
+        },
+        {
+          "name": "region"
+        }
+      ]
+    },
+    {
+      "type": "sun.lwawt.macosx.LWCToolkit",
+      "methods": [
+        {
+          "name": "installToolkitThreadInJava",
+          "parameterTypes": []
+        }
+      ]
+    }
+  ]
+}

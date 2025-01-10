@@ -6,7 +6,7 @@
 (def lib 'cdk/cdkcli)
 
 ;; note - this will end up in the tagged releade
-(def version "0.0.4")
+(def version "0.0.5")
 (def main 'cdk.cdkcli)
 (def class-dir "target/classes")
 
@@ -16,7 +16,9 @@
   (b/javac {:src-dirs ["src/java"]
             :class-dir class-dir
             :basis @basis
-            :javac-opts ["--release" "11"]}))
+            ;; :javac-opts ["--release" "11"]
+            :javac-opts ["-source" "8" "-target" "8"]
+            }))
 
 
 (defn test "Run all the tests." [opts]
