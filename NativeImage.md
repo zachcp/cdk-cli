@@ -7,20 +7,23 @@ rm -rf target/
 
 clojure -T:build ci
 
-  -Djava.awt.headless=false \
 
 native-image \
   --features=clj_easy.graal_build_time.InitClojureClasses \
   -H:ReflectionConfigurationFiles=reflect-config.json \
   -H:+JNI \
   -H:+UnlockExperimentalVMOptions \
+  -Djava.awt.headless=false \
   --initialize-at-build-time=org.openscience.cdk.interfaces \
   --initialize-at-build-time=javax.vecmath.Vector2d \
   --initialize-at-build-time=javax.vecmath.Point2d \
   --initialize-at-build-time=uk.ac.ebi.beam \
   --initialize-at-build-time=java.awt \
   --initialize-at-build-time=sun.awt \
-  --initialize-at-build-time=sun.java2d.HeadlessGraphicsEnvironment \
+  --initialize-at-build-time=sun.java2d \
+  --initialize-at-build-time=sun.awt.CGraphicsEnvironment \
+  --initialize-at-build-time=sun.lwawt.macosx.LWCToolkit \
+  --initialize-at-build-time=sun.java2d.Disposer \
   -jar target/cdk/cdkcli-0.0.5.jar
 
 
