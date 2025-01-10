@@ -4,7 +4,7 @@
             [cdk.convertsmiles :as convertsmiles]
             [cdk.depict :as depict]))
 
-(set! *warn-on-reflection* true)
+;; (set! *warn-on-reflection* true)
 
 
 (def CONFIGURATION
