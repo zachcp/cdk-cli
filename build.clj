@@ -16,7 +16,9 @@
   (b/javac {:src-dirs ["src/java"]
             :class-dir class-dir
             :basis @basis
-            :javac-opts ["--release" "11"]}))
+            ;; :javac-opts ["--release" "11"]
+            :javac-opts ["-source" "8" "-target" "8"]
+            }))
 
 
 (defn test "Run all the tests." [opts]
