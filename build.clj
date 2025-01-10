@@ -6,7 +6,7 @@
 (def lib 'cdk/cdkcli)
 
 ;; note - this will end up in the tagged releade
-(def version "0.0.4")
+(def version "0.0.5")
 (def main 'cdk.cdkcli)
 (def class-dir "target/classes")
 
